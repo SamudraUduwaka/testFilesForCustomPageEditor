@@ -1,3 +1,7 @@
 .login-portal.layout {
     background: red;
 }
+
+.login-portal.layout .center-segment>.ui.container>.ui.segment {
+    background: green;
+}
