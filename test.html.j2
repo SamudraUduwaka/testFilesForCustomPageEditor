@@ -3,9 +3,7 @@
     <p>{{ user.name }}</p>
     {% if user.name == "Bob" %}
       <p>Bob Found</p>
-      {% raw %}
         {{{MainSection}}}
-      {% endraw %}
       <p>No Bob</p>
     {% endif %}
   {% endfor %}
