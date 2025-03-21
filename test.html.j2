@@ -3,6 +3,9 @@
     <p>{{ user.name }}</p>
     {% if user.name == "Bob" %}
       <p>Bob Found</p>
+      {% autoescape %}
+        {{{MainSection}}}
+      {% endautoescape %}
     {% else %}
       <p>No Bob</p>
     {% endif %}
