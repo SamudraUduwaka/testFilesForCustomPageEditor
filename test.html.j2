@@ -3,10 +3,10 @@
     <p>{{ user.name }}</p>
     {% if user.name == "Bob" %}
       <p>Bob Found</p>
-      {% autoescape %}
+      {% raw %}
         {{{MainSection}}}
       {% endautoescape %}
-    {% else %}
+    {% endraw %}
       <p>No Bob</p>
     {% endif %}
   {% endfor %}
