@@ -6,6 +6,6 @@
     background: green;
 }
 
-body[data-page="sign-in"].identifier-container {
-    background-color: red;
+body[data-page="sign-in"] {
+    font-size:70px;
 }
