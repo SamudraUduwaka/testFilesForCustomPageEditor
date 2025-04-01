@@ -6,6 +6,6 @@
     background: green;
 }
 
-body[data-page="sign-in"] {
+body[data-page="sign-in"].ui-header {
     background-color: red;
 }
