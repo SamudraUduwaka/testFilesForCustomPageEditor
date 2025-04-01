@@ -1,7 +1,11 @@
-.login-portal.layout {
+/* .login-portal.layout {
     background: red;
-}
+} */
 
 .login-portal.layout .center-segment>.ui.container>.ui.segment {
     background: green;
+}
+
+body[data-page="sign-in"] {
+    background: red;
 }
