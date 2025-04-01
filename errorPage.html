@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 20px;
+            }
+            h1 {
+                color: #333;
+            }
+            p {
+                color: #555;
+            }
+        </style>
+    </head>
 
+    <body {{errorPage}}>
+        <h1>Welcome!!!</h1>
+        <p>This is a simple HTML page for testing.</p>
+        <p>Feel free to customize this page as needed.</p>
+        <p>Current time: <span id="current-time"></span></p>
+
+        <script>
+            document.getElementById('current-time').innerText = new Date().toLocaleString();
+        </script>
+    </body>
+</html>
