@@ -7,5 +7,5 @@
 }
 
 body[data-page="sign-in"] {
-    background: red;
+    background-color: red;
 }
